@@ -1,4 +1,4 @@
-🇬🇧🇬🇧🇬🇧
+<h1>🇬🇧🇬🇧🇬🇧</h1>
 
 <h1>Dice Roller App</h1>
 <p>This app is used to roll a user-specified number of dice with a user-specified number of faces. The results of each roll are displayed, with the highest result of each roll highlighted in red.</p>
@@ -79,7 +79,7 @@ The biggest number in the results is: <span style="color: green;">6</span>
     <p>The program also makes use of ANSI escape codes to change the color of the output text in the terminal.</p>
 
 
-🇮🇹🇮🇹🇮🇹
+<h1>🇮🇹🇮🇹🇮🇹</h1>
 
 <h1>App del lancio dei dadi</h1>
 <p>Questa app viene utilizzata per lanciare un numero specificato dall'utente di dadi con un numero specificato dall'utente di facce. I risultati di ogni lancio vengono visualizzati, con il risultato più alto di ogni lancio evidenziato in rosso.</p>

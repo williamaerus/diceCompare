@@ -1,3 +1,5 @@
+🇬🇧🇬🇧🇬🇧
+
 <h1>Dice Roller App</h1>
 <p>This app is used to roll a user-specified number of dice with a user-specified number of faces. The results of each roll are displayed, with the highest result of each roll highlighted in red.</p>
 <h2>Features:</h2>
@@ -75,3 +77,46 @@ The biggest number in the results is: <span style="color: green;">6</span>
       <li>List and ArrayList to store the biggest numbers from each roll.</li>
     </ul>
     <p>The program also makes use of ANSI escape codes to change the color of the output text in the terminal.</p>
+
+
+🇮🇹🇮🇹🇮🇹
+
+<h1>App del lancio dei dadi</h1>
+<p>Questa app viene utilizzata per lanciare un numero specificato dall'utente di dadi con un numero specificato dall'utente di facce. I risultati di ogni lancio vengono visualizzati, con il risultato più alto di ogni lancio evidenziato in rosso.</p>
+<h2>Funzionalità:</h2>
+<ul>
+  <li>L'utente specifica il numero di facce su ogni dado</li>
+  <li>L'utente specifica il numero di volte in cui lanciare i dadi</li>
+  <li>I risultati di ogni lancio vengono visualizzati, con il risultato più alto di ogni lancio evidenziato in rosso</li>
+  <li>Il risultato più alto di tutti i lanci viene visualizzato alla fine del programma</li>
+</ul>
+<h2>Requisiti:</h2>
+<ul>
+  <li>Java Development Kit (JDK) installato sul sistema</li>
+  <li>Un IDE per eseguire il codice (come Eclipse, IntelliJ IDEA o NetBeans)</li>
+</ul>
+<h2>Come eseguire l'app:</h2>
+<ol>
+  <li>Clona o scarica il codice sul tuo sistema locale</li>
+  <li>Apri il codice in un IDE</li>
+  <li>Esegui il programma facendo clic sul pulsante "Esegui" o utilizzando la scorciatoia da tastiera (ad esempio "Ctrl + F11" in Eclipse)</li>
+  <li>Inserisci il numero di facce su ogni dado quando richiesto</li>
+  <li>Inserisci il numero di volte che vuoi lanciare i dadi quando richiesto</li>
+  <li>I risultati dei lanci verranno visualizzati, con il risultato più alto di ogni lancio evidenziato in rosso</li>
+  <li>Il risultato più alto di tutti i lanci verrà visualizzato alla fine del programma</li>
+</ol>
+<h2>Codice:</h2>
+<p>Il codice utilizza le seguenti librerie e classi:</p>
+<ul>
+  <li>java.util.Scanner</li>
+  <li>java.util.Random</li>
+  <li>java.util.stream.IntStream</li>
+  <li>java.util.Collections</li>
+  <li>java.util.List</li>
+  <li>java.util.ArrayList</li>
+</ul>
+<p>Il codice definisce i seguenti metodi:</p>
+<ul>
+  <li><b>main</b> - questo è il metodo principale dove viene eseguito il programma. Si utilizza la classe Scanner per ricevere l'input dall'utente sul numero di facce su ogni dado e sul numero di lanci. Viene poi creato un oggetto Random per generare i numeri casuali per i lanci dei dadi. Viene usato l'IntStream per lanciare i dadi un certo numero di volte e accumulare i risultati in una Lista. Viene quindi utilizzata la classe Collections per trovare il risultato più alto di ogni lancio e evidenziarlo in rosso. Alla fine del programma, viene visualizzato il risultato più alto di tutti i lanci.</li>
+</ul>
+<p>Il codice è ben documentato e può essere facilmente compreso e modificato in base alle esigenze dell'utente.</p>

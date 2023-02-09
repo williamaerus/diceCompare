@@ -117,6 +117,48 @@ The biggest number in the results is: <span style="color: green;">6</span>
 </ul>
 <p>Il codice definisce i seguenti metodi:</p>
 <ul>
-  <li><b>main</b> - questo è il metodo principale dove viene eseguito il programma. Si utilizza la classe Scanner per ricevere l'input dall'utente sul numero di facce su ogni dado e sul numero di lanci. Viene poi creato un oggetto Random per generare i numeri casuali per i lanci dei dadi. Viene usato l'IntStream per lanciare i dadi un certo numero di volte e accumulare i risultati in una Lista. Viene quindi utilizzata la classe Collections per trovare il risultato più alto di ogni lancio e evidenziarlo in rosso. Alla fine del programma, viene visualizzato il risultato più alto di tutti i lanci.</li>
+  <li><b>main(String[] args)</b>: Questo è il metodo principale che avvia il programma. Chiede all'utente il numero di facce su ogni dado e il numero di volte per lanciare il dado. Quindi chiama il metodo <b>ThrowDice</b> con i parametri specificati dall'utente.</li>
+  <li><b>ThrowDice(int facce, int tiri)</b>: Questo metodo esegue i lanci dei dadi e visualizza i risultati, con il risultato più alto di ogni lancio evidenziato in rosso. Inoltre, calcola e visualizza il risultato più alto di tutti i lanci alla fine del programma.</li>
 </ul>
-<p>Il codice è ben documentato e può essere facilmente compreso e modificato in base alle esigenze dell'utente.</p>
+<p>Il codice utilizza i codici di escape ANSI per colorare il testo nella console per una migliore leggibilità e attrattiva visiva.</p>
+<p>
+Il programma lancia un dado con un numero specificato di facce per un numero specificato di lanci. I risultati di ogni lancio vengono stampati, con il numero più alto di ogni lancio evidenziato in rosso. Infine, il numero più grande tra tutti i lanci viene stampato in verde.
+</p>
+<h2>Utilizzo</h2>
+<p>
+Quando viene eseguito il programma, viene richiesto all'utente di specificare il numero di facce che avrà il dado e il numero di lanci che vogliono fare. Il programma quindi emette i risultati di ogni lancio e il numero più grande nei risultati.
+</p>
+<h2>Dettagli di implementazione</h2>
+<p>
+Il programma utilizza la classe java.util.Scanner per accettare l'input dell'utente, la classe java.util.Random per generare numeri casuali per i lanci dei dadi e java.util.stream.IntStream per creare un array di interi che rappresentano i possibili valori di ogni lancio. Il programma utilizza anche le classi java.util.List e java.util.ArrayList per memorizzare i risultati di ogni lancio e trovare il numero più grande tra loro utilizzando java.util.Collections.max(). Il programma utilizza le sequenze di escape ANSI per aggiungere il colore all'output.
+</p>
+<h2>Esempio di output</h2>
+<pre>
+Programma avviato
+
+ogni dado verrà lanciato tre volte, e il più grande sarà evidenziato in rosso per ogni dado.
+
+quante facce avrà il dado? 6
+Quante volte vuoi lanciare il dado? 3
+
+Lancio 1: 5, 1, 6
+Il più grande: 6
+
+Lancio 2: 4, 2, 5
+Il più grande: 5
+
+Lancio 3: 6, 3, 1
+Il più grande: 6
+
+Il risultato più grande di tutti i lanci è: 6
+</pre>
+<p>Questo è un esempio di output del programma con un dado a sei facce che viene lanciato tre volte. Come si può vedere, vengono visualizzati i risultati di ogni lancio, con il più alto evidenziato in rosso, e alla fine viene visualizzato il risultato più alto di tutti i lanci in verde.</p>
+<p>Questo programma fa uso delle seguenti classi Java:</p>
+    <ul>
+      <li>Scanner per ottenere l'input dell'utente</li>
+      <li>Random per generare numeri casuali</li>
+      <li>IntStream per creare un array di interi</li>
+      <li>Collections per trovare il numero massimo nella lista</li>
+      <li>List e ArrayList per memorizzare i numeri più grandi da ogni lancio.</li>
+    </ul>
+    <p>Il programma fa anche uso dei codici di escape ANSI per modificare il colore del testo di output nella console.</p>

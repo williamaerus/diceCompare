@@ -38,3 +38,40 @@
   <li><b>ThrowDice(int faces, int rolls)</b>: This method performs the dice rolls and displays the results, with the highest result of each roll highlighted in red. It also calculates and displays the highest result of all rolls at the end of the program.</li>
 </ul>
 <p>The code uses ANSI escape codes to color the text in the console for improved readability and visual appeal.</p>
+<p>
+The program rolls a dice with a specified number of faces for a specified number of rolls. The results of each roll are printed, with the highest number of each roll being highlighted in red. Finally, the biggest number among all the rolls is printed in green.
+</p>
+<h2>Usage</h2>
+<p>
+When the program is run, the user is prompted to specify the number of faces the dice will have and the number of rolls they want to make. The program then outputs the results of each roll and the biggest number in the results.
+</p>
+<h2>Implementation Details</h2>
+<p>
+The program uses the java.util.Scanner class to accept user input, the java.util.Random class to generate random numbers for the dice rolls, and java.util.stream.IntStream to create an array of integers representing the possible values of each roll. The program also uses the java.util.List and java.util.ArrayList classes to store the results of each roll and find the biggest number among them using java.util.Collections.max(). The program uses ANSI escape sequences to add color to the output.
+</p>
+<h2>Example Output</h2>
+<pre>
+Program started
+
+each dice is going to be rolled three times, and the biggest one is going to be highlighted in red for each dice.
+
+how many faces is the dice going to have? 6
+how many times do you want to roll? 3
+2 3 6
+1 6 4
+5 6 3
+The biggest number in the results is: <span style="color: green;">6</span>
+</pre>
+    <p>The program starts by printing <span style="color: blue;">"Program started"</span>, then asks the user to input the number of faces the dice will have and the number of times the dice will be rolled.</p>
+    <p>After getting the input from the user, the program generates random numbers within the range of 1 to the number of faces the user has entered. These random numbers represent the rolls of the dice. The program rolls the dice the number of times the user has specified.</p>
+    <p>For each roll, the program determines the biggest number and highlights it in <span style="color: red;">red</span>. The program then stores all the biggest numbers from each roll in a list.</p>
+    <p>Finally, the program calculates and displays the biggest number among all the rolls in <span style="color: green;">green</span>.</p>
+    <p>This program makes use of the following Java classes:</p>
+    <ul>
+      <li>Scanner to get the user input</li>
+      <li>Random to generate random numbers</li>
+      <li>IntStream to create an array of integers</li>
+      <li>Collections to find the maximum number in the list</li>
+      <li>List and ArrayList to store the biggest numbers from each roll.</li>
+    </ul>
+    <p>The program also makes use of ANSI escape codes to change the color of the output text in the terminal.</p>

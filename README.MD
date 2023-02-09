@@ -141,14 +141,9 @@ ogni dado verrà lanciato tre volte, e il più grande sarà evidenziato in rosso
 quante facce avrà il dado? 6
 Quante volte vuoi lanciare il dado? 3
 
-Lancio 1: 5, 1, 6
-Il più grande: 6
-
-Lancio 2: 4, 2, 5
-Il più grande: 5
-
-Lancio 3: 6, 3, 1
-Il più grande: 6
+5 1 6
+4 2 5
+6 3 1
 
 Il risultato più grande di tutti i lanci è: 6
 </pre>
